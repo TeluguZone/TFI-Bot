@@ -21,11 +21,11 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6000059153:AAGZD478GdNIv9Nnc8PXXzsjcB_pI0I
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/05baa5adad79123db1f9b.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/6ca2c1c4101c48cc0083d.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/64cbab57473d7cec604ea.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
-DPIC = (environ.get("DPIC", "https://graph.org/file/efef058f0a3174366d604.jpg")).split() 
+DPIC = (environ.get("DPIC", "https://graph.org/file/6ca2c1c4101c48cc0083d.jpg")).split() 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '809614790').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
